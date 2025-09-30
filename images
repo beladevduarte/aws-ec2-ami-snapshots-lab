@@ -1,6 +1,0 @@
-mv criacao.png imagens/
-mv executando.png imagens/
-
-git add .
-git commit -m "Organizei imagens na pasta imagens"
-git push
