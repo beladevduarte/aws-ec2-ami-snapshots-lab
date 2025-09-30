@@ -53,6 +53,16 @@ Fluxo seguido no laboratório:
 - Volume EBS padrão de 8 GB  
 
 📸 *Print da instância criada*  
+![Criação da Instância](images/ec2-criacao.png)
+
+---
+
+### 2️⃣ Instância em Execução
+Após o deploy, a instância foi iniciada com sucesso e entrou no estado **Running**.  
+
+📸 **Print da instância rodando:**  
+![Instância Running](images/ec2-running.png)
+
 
 ---
 
