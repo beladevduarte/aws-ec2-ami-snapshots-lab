@@ -65,7 +65,7 @@ Após o deploy, a instância foi iniciada com sucesso e entrou no estado **Runni
 
 ---
 
-### 2️⃣ Conexão via SSH e Instalação do Apache
+### 3️⃣ Conexão via SSH e Instalação do Apache
 Comando para acessar:  
 ```bash
 ssh -i minha-chave.pem ec2-user@<IP-da-instancia>
