@@ -37,8 +37,7 @@ Fluxo seguido no laboratório:
 4. Criação de Snapshot do volume EBS.  
 5. Lançamento de nova instância a partir da AMI.  
 6. Validação do Snapshot como backup.  
-
-📸 *(Inserir diagrama ou print do Console AWS mostrando os recursos criados)*  
+ 
 
 ---
 
