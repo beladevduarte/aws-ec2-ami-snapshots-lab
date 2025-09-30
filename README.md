@@ -52,7 +52,7 @@ Fluxo seguido no laboratório:
 - Volume EBS padrão de 8 GB  
 
 📸 *Print da instância criada*  
-![Criação da Instância](images/criacao.png)
+![Criação da Instância](criaçao.png)
 
 ---
 
