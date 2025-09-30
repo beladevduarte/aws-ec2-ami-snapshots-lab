@@ -67,5 +67,64 @@ Após o deploy, a instância foi iniciada com sucesso e entrou no estado **Runni
 
 ### 3️⃣ Conexão via SSH e Instalação do Apache
 Comando para acessar:  
-```bash
+````bash
 ssh -i minha-chave.pem ec2-user@<IP-da-instancia>
+````
+
+ Instalação e Configuração do Servidor Web Apache:
+Esta etapa simula a instalação de uma aplicação essencial, que será a base da nossa AMI.
+
+1 Atualização do sistema operacional:
+
+````Bash
+
+sudo yum update -y
+Instalação do Apache HTTP Server (httpd):
+
+````
+````Bash
+
+sudo yum install httpd -y
+Iniciando e habilitando o serviço para iniciar automaticamente (autostart):
+````
+````Bash
+
+sudo systemctl start httpd
+sudo systemctl enable httpd
+Personalização (Conteúdo de Teste): Para validação futura, um arquivo de index básico foi criado.
+````
+````Bash
+
+echo "<h1>Desafio DIO AWS: EC2 e AMI - Sucesso!</h1>" | sudo tee /var/www/html/in
+````
+
+
+💡 Reflexão Pessoal
+O principal aprendizado deste laboratório reside na distinção estratégica entre AMIs e Snapshots, 
+e como eles se complementam na gestão de infraestrutura na AWS.
+
+Recurso	Função Estratégica	Foco
+AMI	Provisionamento: Utilizado para lançar instâncias idênticas de forma rápida, 
+garantindo a consistência do ambiente base.	Agilidade e Consistência (Escala)
+Snapshot	Backup: Cópia de segurança pontual e incremental do volume EBS,
+essencial para a Recuperação de Desastres (DR).	Segurança e Restauração (Resiliência)
+Sinergia: O Snapshot é o componente de armazenamento que sustenta o template da AMI. 
+Um bom gerenciamento de Snapshots é crucial, pois afeta a performance das AMIs e os custos de armazenamento.
+
+Conclusão: A capacidade de criar uma AMI para otimizar deploys e de gerar Snapshots para 
+garantir a resiliência do ambiente são práticas fundamentais para qualquer engenheiro de Cloud.
+
+
+
+✅ Conclusão
+O laboratório foi concluído com sucesso, atingindo todos os objetivos propostos:
+
+A instância EC2 foi criada e personalizada (Apache).
+
+Uma AMI personalizada foi gerada.
+
+Um Snapshot EBS de backup foi criado e validado como mecanismo de recuperação.
+
+Todo o processo foi documentado de forma clara e estruturada neste repositório.
+
+A prática consolida os conhecimentos em provisionamento, persistência de dados e estratégias de backup na plataforma AWS.
