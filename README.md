@@ -60,7 +60,7 @@ Fluxo seguido no laboratório:
 Após o deploy, a instância foi iniciada com sucesso e entrou no estado **Running**.  
 
 📸 **Print da instância rodando:**  
-![Instância Running](images/running.png)
+![Instância Running](running.png)
 
 
 ---
