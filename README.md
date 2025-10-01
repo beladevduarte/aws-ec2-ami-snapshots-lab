@@ -38,6 +38,7 @@ flowchart TD
     D --> F[Validação do Snapshot como backup]
 ````
 🔧 Etapas Executadas
+
 1️⃣ Criação da Instância EC2
 
 SO: Amazon Linux 2
