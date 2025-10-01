@@ -56,7 +56,8 @@ Porta 80 (HTTP) liberada
 
 Volume EBS de 8 GB
 
-📸 /[criaçao.png](https://github.com/beladevduarte/aws-ec2-ami-snapshots-lab/blob/beladevduarte-README.md-1/criaçao.png)
+📸 /<img width="1920" height="1032" alt="criaçao" src="https://github.com/user-attachments/assets/b69bd9d5-ab54-42e7-8150-b90d6552d332" />
+
 
 ---
 2️  Instância em Execução
