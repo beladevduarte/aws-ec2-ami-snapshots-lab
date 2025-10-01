@@ -101,7 +101,8 @@ Snapshot do volume EBS criado como backup e ponto de restauração.
 
 Uma nova instância foi lançada com base na AMI personalizada para validar sua integridade.
 📸
-<img width="1024" height="1024" alt="PROJETO EC2" src="https://github.com/user-attachments/assets/ea6fcd3c-01a7-457e-bb80-f6eabf079ab4" />
+<img <img width="1024" height="1024" alt="unnamed (1)" src="https://github.com/user-attachments/assets/e7492e1e-d2e1-4a4f-af4d-daed896a8a55" />
+
 
 
 
