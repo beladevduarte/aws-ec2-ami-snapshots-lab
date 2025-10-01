@@ -56,7 +56,7 @@ Porta 80 (HTTP) liberada
 
 Volume EBS de 8 GB
 
-📸 /images-criaçao
+📸 /criaçao.png
 
 ---
 2️  Instância em Execução
