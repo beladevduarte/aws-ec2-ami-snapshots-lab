@@ -101,7 +101,8 @@ Snapshot do volume EBS criado como backup e ponto de restauração.
 
 Uma nova instância foi lançada com base na AMI personalizada para validar sua integridade.
 📸
-<img <img width="1024" height="1024" alt="unnamed (1)" src="https://github.com/user-attachments/assets/e7492e1e-d2e1-4a4f-af4d-daed896a8a55" />
+<img width="620" height="483" alt="Opera Instantâneo_2025-10-01_174912_gemini google com" src="https://github.com/user-attachments/assets/0e7d2d24-f1a1-463b-90a9-d3492e25b085" />
+
 
 
 
