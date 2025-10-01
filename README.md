@@ -109,8 +109,6 @@ Uma nova instância foi lançada com base na AMI personalizada para validar sua 
 Todas as capturas estão disponíveis na pasta images/ do repositório.
 Incluem:
 
----
-
 Criação da instância
 
 Instância em execução
@@ -124,7 +122,6 @@ Snapshot do volume
 Nova instância a partir da AMI
 
 ---
-
 🛠 Recursos Utilizados
 
 AWS EC2 – Computação em nuvem
@@ -138,7 +135,6 @@ Apache HTTP Server – Servidor Web
 SSH – Acesso remoto seguro
 
 ---
-
 💡 Reflexão Pessoal
 
 Este laboratório me permitiu:
@@ -152,7 +148,6 @@ Criar um ambiente reprodutível, escalável e seguro.
 Aumentar minha familiaridade com o fluxo Deploy → Configuração → Backup → Restauração.
 
 ---
-
 ✅ Conclusão
 
 Este projeto reforçou habilidades práticas em Infraestrutura em Nuvem e Gerenciamento de Recursos AWS, 
