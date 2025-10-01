@@ -154,42 +154,4 @@ preparando o caminho para cenários mais avançados em arquitetura cloud, automa
 
 📌 Repositório criado para fins de estudo e prática profissional.
 
-graph TD
-    subgraph Plataforma DIO / Aluno
-        A[Aluno / Usuário] -->|Requisição Web/Upload| B(Amazon API Gateway);
-        B -->|Invoca| C1(AWS Lambda: Processador de Entrada);
-    end
 
-    subgraph Fluxo de Conteúdo e Documentação
-        C1 -->|Upload de Anotação| D1(Amazon S3: Bucket Conteúdo);
-        D1 -->|Event: s3:ObjectCreated| C2(AWS Lambda: Processador de Anotações);
-        C2 --> E(Amazon DynamoDB: Tabela Metadados);
-    end
-
-    subgraph Gerenciamento EC2 (Desafio Técnico)
-        F1(Amazon CloudWatch: Evento Agendado) --> C3(AWS Lambda: Gerenciador EC2/EBS);
-        C3 -->|Monitoramento / Ação| G[Amazon EC2: Instância de Estudo];
-        G --> H(Amazon EBS: Volume);
-        C3 -->|EC2 API: CreateSnapshot| D2(Amazon S3: Bucket Backups);
-    end
-
-    subgraph Monitoramento
-        C1 --> L[CloudWatch Logs];
-        C2 --> L;
-        C3 --> L;
-    end
-
-    style A fill:#a9c5ec,stroke:#333,stroke-width:2px
-    style G fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#ffd966,stroke:#333,stroke-width:2px
-    style C1 fill:#b1e1ff,stroke:#333,stroke-width:2px
-    style C2 fill:#b1e1ff,stroke:#333,stroke-width:2px
-    style C3 fill:#b1e1ff,stroke:#333,stroke-width:2px
-    style D1 fill:#92d050,stroke:#333,stroke-width:2px
-    style D2 fill:#92d050,stroke:#333,stroke-width:2px
-    style E fill:#f37f39,stroke:#333,stroke-width:2px
-    style F1 fill:#a6a6a6,stroke:#333,stroke-width:2px
-    style H fill:#c5d9f1,stroke:#333,stroke-width:2px
-    style L fill:#93c47d,stroke:#333,stroke-width:2px
-
-    title Arquitetura AWS: Gerenciamento EC2 & Estudo DIO Challenge
