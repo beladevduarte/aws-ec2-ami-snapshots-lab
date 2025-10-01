@@ -63,7 +63,7 @@ Volume EBS de 8 GB
 
 Após o deploy, a instância entrou em estado Running.
 
-📸 /images-running
+📸 /running.png
 
 
 ---
@@ -84,14 +84,14 @@ sudo systemctl enable httpd
 
 Após personalizar a instância, foi criada uma Amazon Machine Image (AMI) personalizada.
 
-📸 
+
 
 ---
 5️  Criação de Snapshot EBS
 
 Snapshot do volume EBS criado como backup e ponto de restauração.
 
-📸 
+
 
 
 ---
@@ -99,26 +99,17 @@ Snapshot do volume EBS criado como backup e ponto de restauração.
 
 Uma nova instância foi lançada com base na AMI personalizada para validar sua integridade.
 
-📸 
 
-
-📸 
 
 ---
- 📸 Todas as capturas estão disponíveis na pasta images/ do repositório.
+ 📸 Todas as capturas estão disponíveis na pasta do repositório.
 Incluem:
 
 Criação da instância
 
 Instância em execução
 
-Apache configurado
 
-AMI criada
-
-Snapshot do volume
-
-Nova instância a partir da AMI
 
 ---
 🛠 Recursos Utilizados
