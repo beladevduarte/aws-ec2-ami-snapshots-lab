@@ -65,6 +65,7 @@ Após o deploy, a instância entrou em estado Running.
 
 
 ---
+
 3️⃣ Conexão via SSH e Instalação do Apache
 
 Conexão na instância:
@@ -77,11 +78,13 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 ````
 ---
+
 4️⃣ Criação da AMI
 
 Após personalizar a instância, foi criada uma Amazon Machine Image (AMI) personalizada.
 
 📸 
+
 ---
 
 
@@ -93,6 +96,7 @@ Snapshot do volume EBS criado como backup e ponto de restauração.
 
 
 ---
+
 6️⃣ Nova Instância a partir da AMI
 
 Uma nova instância foi lançada com base na AMI personalizada para validar sua integridade.
@@ -104,6 +108,7 @@ Uma nova instância foi lançada com base na AMI personalizada para validar sua 
 
 Todas as capturas estão disponíveis na pasta images/ do repositório.
 Incluem:
+
 ---
 
 Criação da instância
@@ -117,6 +122,7 @@ AMI criada
 Snapshot do volume
 
 Nova instância a partir da AMI
+
 ---
 
 🛠 Recursos Utilizados
@@ -130,6 +136,7 @@ Amazon EBS Snapshots – Backup de volumes
 Apache HTTP Server – Servidor Web
 
 SSH – Acesso remoto seguro
+
 ---
 
 💡 Reflexão Pessoal
@@ -143,6 +150,7 @@ Entender na prática como funcionam AMIs e Snapshots.
 Criar um ambiente reprodutível, escalável e seguro.
 
 Aumentar minha familiaridade com o fluxo Deploy → Configuração → Backup → Restauração.
+
 ---
 
 ✅ Conclusão
