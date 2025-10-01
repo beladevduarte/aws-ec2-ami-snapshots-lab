@@ -56,14 +56,14 @@ Porta 80 (HTTP) liberada
 
 Volume EBS de 8 GB
 
-📸 
+📸 /images-criaçao
 
 ---
 2️  Instância em Execução
 
 Após o deploy, a instância entrou em estado Running.
 
-📸 
+📸 /images-running
 
 
 ---
