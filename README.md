@@ -64,7 +64,8 @@ Volume EBS de 8 GB
 
 Após o deploy, a instância entrou em estado Running.
 
-📸 /running.png
+📸 /<img width="1920" height="1032" alt="running" src="https://github.com/user-attachments/assets/9c087134-1aad-4415-b613-c1acc3b43b53" />
+
 
 
 ---
