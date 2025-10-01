@@ -100,6 +100,8 @@ Snapshot do volume EBS criado como backup e ponto de restauração.
 6️  Nova Instância a partir da AMI
 
 Uma nova instância foi lançada com base na AMI personalizada para validar sua integridade.
+📸
+<img width="1024" height="1024" alt="PROJETO EC2" src="https://github.com/user-attachments/assets/ea6fcd3c-01a7-457e-bb80-f6eabf079ab4" />
 
 
 
@@ -111,6 +113,7 @@ Criação da instância
 
 Instância em execução
 
+Desafio de projeto
 
 
 ---
