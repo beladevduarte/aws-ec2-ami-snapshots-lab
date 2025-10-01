@@ -37,8 +37,11 @@ flowchart TD
     D --> E[Lançamento de nova instância a partir da AMI]
     D --> F[Validação do Snapshot como backup]
 ````
+
 🔧 Etapas Executadas
 
+
+---
 1️⃣ Criação da Instância EC2
 
 SO: Amazon Linux 2
@@ -56,7 +59,6 @@ Volume EBS de 8 GB
 📸 
 
 ---
-
 2️⃣ Instância em Execução
 
 Após o deploy, a instância entrou em estado Running.
@@ -65,7 +67,6 @@ Após o deploy, a instância entrou em estado Running.
 
 
 ---
-
 3️⃣ Conexão via SSH e Instalação do Apache
 
 Conexão na instância:
@@ -77,8 +78,8 @@ sudo yum install httpd -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
 ````
----
 
+---
 4️⃣ Criação da AMI
 
 Após personalizar a instância, foi criada uma Amazon Machine Image (AMI) personalizada.
@@ -86,8 +87,6 @@ Após personalizar a instância, foi criada uma Amazon Machine Image (AMI) perso
 📸 
 
 ---
-
-
 5️⃣ Criação de Snapshot EBS
 
 Snapshot do volume EBS criado como backup e ponto de restauração.
@@ -96,7 +95,6 @@ Snapshot do volume EBS criado como backup e ponto de restauração.
 
 
 ---
-
 6️⃣ Nova Instância a partir da AMI
 
 Uma nova instância foi lançada com base na AMI personalizada para validar sua integridade.
@@ -106,6 +104,7 @@ Uma nova instância foi lançada com base na AMI personalizada para validar sua 
 
 📸 
 
+---
 Todas as capturas estão disponíveis na pasta images/ do repositório.
 Incluem:
 
