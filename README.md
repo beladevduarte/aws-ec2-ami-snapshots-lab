@@ -56,14 +56,16 @@ Porta 80 (HTTP) liberada
 
 Volume EBS de 8 GB
 
-📸 /images-criaçao
+📸 /<img width="1920" height="1032" alt="criaçao" src="https://github.com/user-attachments/assets/b69bd9d5-ab54-42e7-8150-b90d6552d332" />
+
 
 ---
 2️  Instância em Execução
 
 Após o deploy, a instância entrou em estado Running.
 
-📸 /images-running
+📸 /<img width="1920" height="1032" alt="running" src="https://github.com/user-attachments/assets/9c087134-1aad-4415-b613-c1acc3b43b53" />
+
 
 
 ---
@@ -84,14 +86,14 @@ sudo systemctl enable httpd
 
 Após personalizar a instância, foi criada uma Amazon Machine Image (AMI) personalizada.
 
-📸 
+
 
 ---
 5️  Criação de Snapshot EBS
 
 Snapshot do volume EBS criado como backup e ponto de restauração.
 
-📸 
+
 
 
 ---
@@ -99,26 +101,25 @@ Snapshot do volume EBS criado como backup e ponto de restauração.
 
 Uma nova instância foi lançada com base na AMI personalizada para validar sua integridade.
 
-📸 
+---
+
+📸
+<img width="803" height="646" alt="image" src="https://github.com/user-attachments/assets/d0b90f54-e6f0-46e3-966a-67d68487a2eb" />
 
 
-📸 
+
+
 
 ---
- 📸 Todas as capturas estão disponíveis na pasta images/ do repositório.
+ 📸 Todas as capturas estão disponíveis na pasta do repositório.
 Incluem:
 
 Criação da instância
 
 Instância em execução
 
-Apache configurado
+Desafio de projeto
 
-AMI criada
-
-Snapshot do volume
-
-Nova instância a partir da AMI
 
 ---
 🛠 Recursos Utilizados
